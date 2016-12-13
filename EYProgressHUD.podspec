@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://weibo.com/exceptions"
   s.source       = { :git => "https://github.com/lieryang/EYProgressHUD.git", :tag => s.version }
   s.source_files  = "EYProgressHUD"
+  s.resource     = 'EYProgressHUD/EYProgressHUD.bundle'
   s.requires_arc = true
 end
