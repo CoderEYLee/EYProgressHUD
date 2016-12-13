@@ -1,11 +1,9 @@
 # EYProgressHUD
 iOS提示与等待框（一行代码解决提示与等待框）
 
-直接下载：
-#import "EYProgressHUD.h"
+直接下载： #import "EYProgressHUD.h"
 
-通过Cocoapods安装使用
-#import <EYProgressHUD.h>
+通过Cocoapods安装： #import <EYProgressHUD.h>
 
 1、提示成功
 [EYProgressHUD showSuccess:@"提示成功"];
