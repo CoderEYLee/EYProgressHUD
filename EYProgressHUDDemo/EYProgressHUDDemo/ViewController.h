@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  EYProgressHUD
+//  EYProgressHUDDemo
 //
 //  Created by lieryang on 16/12/13.
 //  Copyright © 2016年 lieryang. All rights reserved.
