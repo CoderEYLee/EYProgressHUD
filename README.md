@@ -1,5 +1,10 @@
 # EYProgressHUD
 iOS提示与等待框（一行代码解决提示与等待框）
+
+Drag all source files under floder MJExtension to your project.【将MJExtension文件夹中的所有源代码拽入项目中】
+Import the main header file：#import "MJExtension.h"【导入主头文件：#import "MJExtension.h" #import <MJExtension.h>】
+
+将EYProgressHUD文件夹中的所有源代码拽入项目中
 您只需要导入 EYProgressHUD.h 即可
 
 1、提示成功
