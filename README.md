@@ -1,5 +1,5 @@
 # EYProgressHUD
-iOS提示与等待框（一句话解决提示与等待框）
+iOS提示与等待框（一行代码解决提示与等待框）
 
 直接下载：
 #import "EYProgressHUD.h"
