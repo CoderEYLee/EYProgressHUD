@@ -13,6 +13,9 @@
 		604BDED41DFFA0660082B936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604BDED21DFFA0660082B936 /* Main.storyboard */; };
 		604BDED61DFFA0660082B936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604BDED51DFFA0660082B936 /* Assets.xcassets */; };
 		604BDED91DFFA0660082B936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604BDED71DFFA0660082B936 /* LaunchScreen.storyboard */; };
+		604BDEEF1DFFB2EA0082B936 /* EYProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 604BDEEA1DFFB2EA0082B936 /* EYProgressHUD.bundle */; };
+		604BDEF01DFFB2EA0082B936 /* EYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDEEC1DFFB2EA0082B936 /* EYProgressHUD.m */; };
+		604BDEF11DFFB2EA0082B936 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDEEE1DFFB2EA0082B936 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		604BDED51DFFA0660082B936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604BDED81DFFA0660082B936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		604BDEDA1DFFA0660082B936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604BDEEA1DFFB2EA0082B936 /* EYProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EYProgressHUD.bundle; sourceTree = "<group>"; };
+		604BDEEB1DFFB2EA0082B936 /* EYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EYProgressHUD.h; sourceTree = "<group>"; };
+		604BDEEC1DFFB2EA0082B936 /* EYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EYProgressHUD.m; sourceTree = "<group>"; };
+		604BDEED1DFFB2EA0082B936 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		604BDEEE1DFFB2EA0082B936 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		604BDEC81DFFA0660082B936 /* EYProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				604BDEE91DFFB2EA0082B936 /* EYProgressHUD */,
 				604BDECC1DFFA0660082B936 /* AppDelegate.h */,
 				604BDECD1DFFA0660082B936 /* AppDelegate.m */,
 				604BDECF1DFFA0660082B936 /* ViewController.h */,
@@ -77,6 +86,18 @@
 				604BDECA1DFFA0660082B936 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		604BDEE91DFFB2EA0082B936 /* EYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				604BDEEA1DFFB2EA0082B936 /* EYProgressHUD.bundle */,
+				604BDEEB1DFFB2EA0082B936 /* EYProgressHUD.h */,
+				604BDEEC1DFFB2EA0082B936 /* EYProgressHUD.m */,
+				604BDEED1DFFB2EA0082B936 /* MBProgressHUD.h */,
+				604BDEEE1DFFB2EA0082B936 /* MBProgressHUD.m */,
+			);
+			path = EYProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604BDEEF1DFFB2EA0082B936 /* EYProgressHUD.bundle in Resources */,
 				604BDED91DFFA0660082B936 /* LaunchScreen.storyboard in Resources */,
 				604BDED61DFFA0660082B936 /* Assets.xcassets in Resources */,
 				604BDED41DFFA0660082B936 /* Main.storyboard in Resources */,
@@ -153,6 +175,8 @@
 			files = (
 				604BDED11DFFA0660082B936 /* ViewController.m in Sources */,
 				604BDECE1DFFA0660082B936 /* AppDelegate.m in Sources */,
+				604BDEF11DFFB2EA0082B936 /* MBProgressHUD.m in Sources */,
+				604BDEF01DFFB2EA0082B936 /* EYProgressHUD.m in Sources */,
 				604BDECB1DFFA0660082B936 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
