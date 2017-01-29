@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186709B81E3DDD4C00C28AE2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 186709B71E3DDD4C00C28AE2 /* MBProgressHUD.m */; };
 		604BDF001DFFBF390082B936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDEFF1DFFBF390082B936 /* main.m */; };
 		604BDF031DFFBF390082B936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDF021DFFBF390082B936 /* AppDelegate.m */; };
 		604BDF061DFFBF390082B936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDF051DFFBF390082B936 /* ViewController.m */; };
@@ -14,11 +15,12 @@
 		604BDF0E1DFFBF390082B936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604BDF0C1DFFBF390082B936 /* LaunchScreen.storyboard */; };
 		604BDF1B1DFFBF5D0082B936 /* EYProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 604BDF161DFFBF5D0082B936 /* EYProgressHUD.bundle */; };
 		604BDF1C1DFFBF5D0082B936 /* EYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDF181DFFBF5D0082B936 /* EYProgressHUD.m */; };
-		604BDF1D1DFFBF5D0082B936 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BDF1A1DFFBF5D0082B936 /* MBProgressHUD.m */; };
 		604BDF1F1DFFBF7E0082B936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604BDF1E1DFFBF7E0082B936 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186709B61E3DDD4C00C28AE2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		186709B71E3DDD4C00C28AE2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		604BDEFB1DFFBF390082B936 /* EYProgressHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYProgressHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		604BDEFF1DFFBF390082B936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		604BDF011DFFBF390082B936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,8 +33,6 @@
 		604BDF161DFFBF5D0082B936 /* EYProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EYProgressHUD.bundle; sourceTree = "<group>"; };
 		604BDF171DFFBF5D0082B936 /* EYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EYProgressHUD.h; sourceTree = "<group>"; };
 		604BDF181DFFBF5D0082B936 /* EYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EYProgressHUD.m; sourceTree = "<group>"; };
-		604BDF191DFFBF5D0082B936 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		604BDF1A1DFFBF5D0082B936 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		604BDF1E1DFFBF7E0082B936 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,8 +94,8 @@
 				604BDF161DFFBF5D0082B936 /* EYProgressHUD.bundle */,
 				604BDF171DFFBF5D0082B936 /* EYProgressHUD.h */,
 				604BDF181DFFBF5D0082B936 /* EYProgressHUD.m */,
-				604BDF191DFFBF5D0082B936 /* MBProgressHUD.h */,
-				604BDF1A1DFFBF5D0082B936 /* MBProgressHUD.m */,
+				186709B61E3DDD4C00C28AE2 /* MBProgressHUD.h */,
+				186709B71E3DDD4C00C28AE2 /* MBProgressHUD.m */,
 			);
 			path = EYProgressHUD;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			files = (
 				604BDF061DFFBF390082B936 /* ViewController.m in Sources */,
 				604BDF031DFFBF390082B936 /* AppDelegate.m in Sources */,
-				604BDF1D1DFFBF5D0082B936 /* MBProgressHUD.m in Sources */,
+				186709B81E3DDD4C00C28AE2 /* MBProgressHUD.m in Sources */,
 				604BDF1C1DFFBF5D0082B936 /* EYProgressHUD.m in Sources */,
 				604BDF001DFFBF390082B936 /* main.m in Sources */,
 			);
@@ -328,6 +328,7 @@
 				604BDF141DFFBF390082B936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

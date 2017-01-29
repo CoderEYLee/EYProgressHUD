@@ -25,7 +25,7 @@
 }
 - (IBAction)failed:(UIButton *)sender
 {
-    [EYProgressHUD showSuccess:@"提示失败"];
+    [EYProgressHUD showError:@"提示失败"];
 }
 
 - (IBAction)hud:(UIButton *)sender
